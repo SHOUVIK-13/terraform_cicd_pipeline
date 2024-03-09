@@ -1,4 +1,5 @@
-# cicd_tf_state
+# cicd_tf_state about the project
+This is a fully automated CICD pipeline with Terraform using GitLab CI/CD tools. Here we do terraform State locking using Dynamo DB and S3 bucket. 
 
 
 
