@@ -35,7 +35,6 @@ plan:
             - planfile
 
 
-
 apply:
     stage: apply
     dependencies:
@@ -45,7 +44,7 @@ apply:
     when: manual
     
 destroy:
-    stage: apply
+    stage: destroy
     script:
         - terraform destroy -auto-approve
     when: manual
